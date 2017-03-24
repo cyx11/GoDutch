@@ -20,4 +20,12 @@ public class Person {
 		m_bills.add(bill);
 	}
 	
+	public String getName() {
+		return m_name;
+	}
+	
+	public double getTotalPayment() {
+		return m_totalPayment;
+	}
+	
 }
